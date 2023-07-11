@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@font-face {
+  font-family: "Roseblue";
+  src: url(../fonts/Roseblue.ttf);
+}
+@font-face {
+  font-family: "BlankRiver";
+  src: url(../fonts/BlankRiver.ttf);
+}
+@font-face {
+  font-family: "CaviarDreams";
+  src: url(../fonts/CaviarDreams.ttf);
+}
+@font-face {
+  font-family: "AestheticRomance";
+  src: url(../fonts/AestheticRomance.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  list-style: none;
+}
+:root {
+  --text-color: #fff;
+  --bg-color: #1f242d;
+  --sec-bg-color: #323946;
+  --main-color: dd2a7b;
+  --btn-color: linear-gradient(270deg, #3f5efb, #fc466b);
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+body {
+  background: black;
+}
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 9% 2rem;
+}
+
+header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem 9%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav a {
+  padding: 1rem;
+  margin: 1rem;
+  color: white;
+  font-size: 5rem;
+  font-family: "Roseblue";
+}
+nav a:hover {
+  color: #9f86c0;
+}
+.home {
+  display: flex;
+  background-color: hwb(297 84% 2%);
+  border-radius: 1rem;
+  justify-content: space-between;
+  color: black;
+}
+
+.foto-home {
+  width: 40rem;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+}
+.name {
+  font-size: 5rem;
+  font-weight: 700;
+  font-family: "Roseblue", sans-serif;
+}
+.descricao {
+  font-size: 2rem;
+  font-family: "AestheticRomance", sans-serif;
+}
+.projetos {
+  color: white;
+  text-align: center;
+}
+
+.paulo-tatoo h1 {
+  font-size: 6rem;
+  font-family: "BlankRiver", sans-serif;
+}
+.paulo-tatoo h3 {
+  font-size: 3rem;
+  font-family: "Roseblue", sans-serif;
+}
+.paulo-tatoo p {
+  font-size: 2rem;
+  font-family: "Roseblue", sans-serif;
+}
+.paula-piercing {
+  background-color: hwb(297 84% 2%);
+  border-radius: 1rem;
+  color: black;
+}
+.paula-piercing h1 {
+  font-size: 6rem;
+  font-family: "CaviarDreams", sans-serif;
+}
+.paula-piercing h3 {
+  font-size: 3rem;
+  font-family: "Roseblue", sans-serif;
+}
+.paula-piercing p {
+  font-size: 2rem;
+  font-family: "Roseblue", sans-serif;
+}
+.princesas-pole {
+  background-color: hwb(297 84% 2%);
+  border-radius: 1rem;
+  color: black;
+}
+.princesas-pole h1 {
+  font-family: "AestheticRomance";
+  font-size: 6rem;
+}
+.princesas-pole h3 {
+  font-family: "Roseblue", sans-serif;
+  font-size: 3rem;
+}
+.princesas-pole p {
+  font-family: "AestheticRomance";
+  font-size: 2rem;
+}
+.container i {
+  font-size: 6rem;
+  color: #ffffff;
+  box-shadow: 2px 2px 2px #00000000, 10px 1px 12px #00000000,
+    2px 2px 10px #00000000, 2px 2px 3px #00000000, inset 2px 2px 10px #00000000,
+    inset 2px 2px 10px #00000000, inset 2px 2px 10px #00000000,
+    inset 2px 2px 10px #00000000;
+  border-radius: 2.9rem;
+  padding: 11px 19px;
+  margin: 0 40px;
+  animation: animate 3s linear infinite;
+  text-shadow: 0 0 50px purple, 0 0 100px purple, 0 0 150px purple,
+    0 0 200px purple;
+}
+#email {
+  animation-delay: 0.7s;
+}
+#email {
+  animation-delay: 0.7s;
+}
+
+@keyframes animate{
+    from{
+        color: purple;
+    }
+    to{
+        color: pink;
+    }
+}
+
+
+.projetos li {
+  padding: 1rem;
+}
+.fotos {
+  grid-area: projects;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.fotos .foto img {
+  width: 25rem;
+  height: 30rem;
+  transition: 0.3s ease-in-out;
+}
+
+.fotos .foto a:hover img {
+  opacity: 0.5;
+}
+.container {
+  display: flex;
+}
