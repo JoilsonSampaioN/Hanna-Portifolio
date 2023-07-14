@@ -68,6 +68,7 @@ nav a {
 nav a:hover {
   color: #9f86c0;
 }
+/*INTRODUÇÃO*/
 .home {
   display: flex;
   background-color: hwb(297 84% 2%);
@@ -91,6 +92,7 @@ nav a:hover {
   font-size: 2rem;
   font-family: "AestheticRomance", sans-serif;
 }
+/*PROJETOS*/
 .projetos {
   color: white;
   text-align: center;
@@ -171,7 +173,6 @@ nav a:hover {
         color: pink;
     }
 }
-
 
 .projetos li {
   padding: 1rem;

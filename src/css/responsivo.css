@@ -1,0 +1,51 @@
+@media (max-width: 414px) {
+  nav {
+    width: 30rem;
+  }
+  nav a {
+    font-size: 3.5rem;
+  }
+  /*Introdução*/ 
+  body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+  .home {
+    height: 60rem;
+    width: 35rem;
+    flex-direction: column;
+  }
+  .foto-home {
+    width: 30rem;
+    margin-right: 2.6rem;
+  }
+  .name {
+    font-size: 4rem;
+  }
+  .descricao {
+    font-size: 2rem;
+  }
+  /* Projetos*/
+  .projetos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+
+  }
+  .fotos {
+    display: flex;
+    flex-direction: column;
+  }
+  .fotos .foto img {
+    width: 30rem;
+    height: 35rem;
+  }
+  .container i {
+    font-size: 3rem;
+  }
+  
+}
